@@ -10,12 +10,12 @@ public class App {
         int opcao;
         do {
             System.out.println("\n--- MENU ---");
-            System.out.println("1 – Incluir produto");
-            System.out.println("2 – Consultar produto");
-            System.out.println("3 – Listagem de produtos");
-            System.out.println("4 – Vendas por período – detalhado");
-            System.out.println("5 – Realizar venda");
-            System.out.println("0 – Sair");
+            System.out.println("1. Incluir produto");
+            System.out.println("2. Consultar produto");
+            System.out.println("3. Listagem de produtos");
+            System.out.println("4. Vendas por período – detalhado");
+            System.out.println("5. Realizar venda");
+            System.out.println("0. Sair");
             System.out.print("Escolha: ");
             opcao = sc.nextInt();
             sc.nextLine();
